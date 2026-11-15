@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+<model>
+<name>pilot1</name>
+<path>Aircraft/Bell_412/Models/Divers/Pilot/sar/pilots.xml</path>
+<offsets>
+<x-m> -7.8 </x-m>
+<y-m>  0.05 </y-m>
+<z-m> -0.8 </z-m>
+</offsets>
+</model>
+
+<model>
+<name>pilot2</name>
+<path>Aircraft/Bell_412/Models/Divers/Pilot/sar/pilots.xml</path>
+<offsets>
+<x-m> -7.8 </x-m>
+<y-m> -0.95 </y-m>
+<z-m> -0.80 </z-m>
+</offsets>
+</model>
+
+<!-- Crew seats -->
+
+<!-- Left seat -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -5.95</x-m>
+<y-m>  0.51496 </y-m>
+<z-m> -1.2</z-m>
+<heading-deg>90</heading-deg>
+</offsets>
+</model>
+
+<!-- Right seat -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -5.95 </x-m>
+<y-m> -0.51496 </y-m>
+<z-m> -1.2 </z-m>
+<heading-deg>90</heading-deg>
+</offsets>
+</model>
+
+<!-- Left seat -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.0 </x-m>
+<y-m>  0.752 </y-m>
+<z-m> -1.2</z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+<!-- Right seat -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.0 </x-m>
+<y-m> -0.752 </y-m>
+<z-m> -1.2</z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+
+<!-- Bed -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/Seats/bed.xml</path>
+<offsets>
+<x-m> -4.9 </x-m>
+<y-m>  0.03387 </y-m>
+<z-m> 0.05 </z-m>
+</offsets>
+</model>
+
+<!-- Search Light -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/SearchLight/searchlight.xml</path>
+<offsets>
+<x-m> -6.89656 </x-m>
+<y-m>  0.29294 </y-m>
+<z-m> -1.434 </z-m>
+</offsets>
+</model>
+
+<!-- winch -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hoist/exthoist.xml</path>
+<offsets>
+<x-m> -5.2</x-m>
+<y-m>  1.11 </y-m>
+<z-m> 0.11 </z-m>
+</offsets>
+</model>
+
+<!-- Floatation system -->
+
+
+	
+	<model>  
+	<name>emergencyfloats</name>  
+	<path>Aircraft/Bell_412/Models/Divers/Floats/Floats.xml</path>  
+	<offsets>   
+	<x-m>0</x-m>   
+	<y-m>0</y-m>   
+	<z-m>0</z-m> 
+	</offsets> 
+	</model> 
+
+	<animation>  
+	<type>select</type>  
+<!--		<object-name>emergencyfloats</object-name>  -->
+	<object-name>LongerSkids</object-name> 
+	<condition>   
+	<property>sim/model/uh1/emergencyfloats</property>  
+	</condition> 
+	</animation>	
+
+</PropertyList>

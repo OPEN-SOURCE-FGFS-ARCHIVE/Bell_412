@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+<model>
+<name>pilot1</name>
+<path>Aircraft/Bell_412/Models/Divers/Pilot/sar/pilots.xml</path>
+<offsets>
+<x-m> -7.8 </x-m>
+<y-m>  0.05 </y-m>
+<z-m> -0.8 </z-m>
+</offsets>
+</model>
+
+<model>
+<name>pilot2</name>
+<path>Aircraft/Bell_412/Models/Divers/Pilot/sar/pilots.xml</path>
+<offsets>
+<x-m> -7.8 </x-m>
+<y-m> -0.95 </y-m>
+<z-m> -0.80 </z-m>
+</offsets>
+</model>
+
+<!-- Crew seats -->
+
+<!-- Left seat -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -5.95</x-m>
+<y-m>  0.51496 </y-m>
+<z-m> -1.2</z-m>
+<heading-deg>90</heading-deg>
+</offsets>
+</model>
+
+<!-- Right seat -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -5.95 </x-m>
+<y-m> -0.51496 </y-m>
+<z-m> -1.2 </z-m>
+<heading-deg>90</heading-deg>
+</offsets>
+</model>
+
+<!-- Left seat -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.0 </x-m>
+<y-m>  0.752 </y-m>
+<z-m> -1.2</z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+<!-- Right seat -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.0 </x-m>
+<y-m> -0.752 </y-m>
+<z-m> -1.2</z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+
+<!-- Bed -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/trolly1a.xml</path>
+<offsets>
+<x-m> -4.95 </x-m>
+<y-m>  -0.37 </y-m>
+<z-m>-1.2 </z-m>
+<heading-deg>90</heading-deg>
+</offsets>
+</model>
+
+<!-- life support stuff -->
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/monitor.xml</path>
+<offsets>
+<x-m> -4.2</x-m>
+<y-m>  0.36 </y-m>
+<z-m>-0.4 </z-m>
+<heading-deg>0</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/lifesupport1.xml</path>
+<offsets>
+<x-m> -4.32</x-m>
+<y-m>  0.15 </y-m>
+<z-m>-0.4 </z-m>
+<heading-deg>0</heading-deg>
+</offsets>
+</model>
+
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/lifesupport2.xml</path>
+<offsets>
+<x-m> -4.28</x-m>
+<y-m>  -0.35 </y-m>
+<z-m>-0.41 </z-m>
+<heading-deg>0</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/o2.xml</path>
+<offsets>
+<x-m> -4.28</x-m>
+<y-m>  -0.35 </y-m>
+<z-m>-1 </z-m>
+<heading-deg>0</heading-deg>
+</offsets>
+</model>
+
+
+</PropertyList>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+<model>
+<name>pilot1</name>
+<path>Aircraft/Bell_412/Models/Divers/Pilot/sar/pilots.xml</path>
+<offsets>
+<x-m> -7.8 </x-m>
+<y-m>  0.05 </y-m>
+<z-m> -0.8 </z-m>
+</offsets>
+</model>
+
+<model>
+<name>pilot2</name>
+<path>Aircraft/Bell_412/Models/Divers/Pilot/sar/pilots.xml</path>
+<offsets>
+<x-m> -7.8 </x-m>
+<y-m> -0.95 </y-m>
+<z-m> -0.80 </z-m>
+</offsets>
+</model>
+
+<!-- Passenger seats -->
+<!-- row 1 -->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -5.71054 </x-m>
+<y-m> -0.69732 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>90</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -5.71054 </x-m>
+<y-m> -0.26132 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>90</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -5.71054 </x-m>
+<y-m>  0.26132 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>90</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -5.71054 </x-m>
+<y-m>  0.69732 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>90</heading-deg>
+</offsets>
+</model>
+
+
+<!--row 2 -->
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.74697 </x-m>
+<y-m> -0.9 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.74697 </x-m>
+<y-m> -0.46132 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.74697 </x-m>
+<y-m>  0</y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.74697 </x-m>
+<y-m>  0.46132 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.74697 </x-m>
+<y-m>  0.9 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+<!-- reas seats -->
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.0 </x-m>
+<y-m>  0.85 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/hems/chair.xml</path>
+<offsets>
+<x-m> -4.0</x-m>
+<y-m> -0.85 </y-m>
+<z-m> -1.32578 </z-m>
+<heading-deg>-90</heading-deg>
+</offsets>
+</model>
+
+<!-- Floatation system -->
+
+	
+	<model>  
+	<name>emergencyfloats</name>  
+	<path>Aircraft/Bell_412/Models/Divers/Floats/Floats.xml</path>  
+	<offsets>   
+	<x-m>0</x-m>   
+	<y-m>0</y-m>   
+	<z-m>0</z-m> 
+	</offsets> 
+	</model> 
+
+	<animation>  
+	<type>select</type>  
+<!--		<object-name>emergencyfloats</object-name>  -->
+	<object-name>LongerSkids</object-name> 
+	<condition>   
+	<property>sim/model/uh1/emergencyfloats</property>  
+	</condition> 
+	</animation>	
+</PropertyList>

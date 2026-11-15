@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <default>
+    <menu n="10">
+      <label>Bell 412</label>
+      <enabled type="bool">true</enabled>
+     
+	 <item n="1">   
+        <label>Select Livery</label>
+        <binding>
+          <command>nasal</command>
+          <script>aircraft.livery.dialog.toggle()</script>
+        </binding>
+      </item>
+	  
+		<item>
+						<label>Autostart</label>
+						<binding>
+							<command>nasal</command>
+							<script>bo105.startup()</script>
+						</binding>
+					</item>
+					<item>
+						<label>Autoshutdown</label>
+						<binding>
+							<command>nasal</command>
+							<script>bo105.shutdown()</script>
+						</binding>
+					</item>
+					 
+                <item>
+          <label>Aircraft Options</label>
+          <binding>
+            <command>dialog-show</command>
+            <dialog-name>aircraft-dialog</dialog-name>
+          </binding>
+      </item>		
+					
+					<item>
+          <label>Cargo Settings</label>
+          <binding>
+            <command>dialog-show</command>
+            <dialog-name>aicargo-dialog</dialog-name>
+          </binding>
+      </item>           
+	 
+    </menu>
+  </default>
+
+</PropertyList>

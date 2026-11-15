@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--###################################################################################
+		Lake of Constance Hangar :: M.Kraus
+		Septemper 2013
+		This file is licenced under the terms of the GNU General Public Licence V2 or later
+		###################################################################################
+-->
+
+<PropertyList>
+
+<path>instr_exh.ac</path>
+
+	<animation>
+		<type>material</type>
+		<object-name>face</object-name>
+		<object-name>needle</object-name>
+		<object-name>shadow</object-name>
+		
+		  <emission>
+			<red>0.28</red>
+			<green>0.40</green>
+			<blue>0.24</blue>
+<factor-prop>controls/lighting/engine-lights-norm</factor-prop>
+		</emission>
+	</animation>	
+	<animation>
+		<type>noshadow</type>
+		<object-name>shadow</object-name>
+	</animation>
+
+	<effect>
+		<inherits-from>Effects/model-transparent</inherits-from>
+		<object-name>shadow</object-name>
+  </effect>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>needle</object-name>
+		<property>engines/engine[1]/tot-degc</property>
+		<factor>0.17</factor>
+		<center>   
+		  <x-m> 0 </x-m> 
+		  <y-m>0 </y-m>
+			<z-m>0 </z-m>
+		</center>
+		<axis>
+		  <x>-1</x>
+		  <y>0</y>
+		  <z>0</z>
+		</axis>
+	</animation>
+
+</PropertyList>

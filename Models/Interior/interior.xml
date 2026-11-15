@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+<path>interior.ac</path>
+
+<animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>500</max-m>
+ </animation>
+
+<animation>
+<!-- Objets opaques -->
+<object-name>interieur</object-name>
+<object-name>floor1</object-name>
+<object-name>floor2</object-name>
+<object-name>frontdoorlint</object-name>
+<object-name>frontdoorrint</object-name>
+<object-name>sidedoorintr</object-name>
+<object-name>sidedoorintl</object-name>
+<object-name>slidedoorintr</object-name>
+<object-name>slidedoorintl</object-name>
+<object-name>seat</object-name>
+<object-name>crewseat1</object-name>
+<object-name>crewseat2</object-name>
+<object-name>wall2</object-name>
+
+
+</animation>
+
+
+
+
+<animation>
+<type>noshadow</type>
+<object-name>vitresint</object-name>
+<object-name>frontdoorglasleftint</object-name>
+<object-name>frontdoorglasrighint</object-name>
+<object-name>sidedoorglasleftint</object-name>
+<object-name>sidedoorglasrightint</object-name>
+<object-name>slidedoorglasleftint</object-name>
+<object-name>slidedoorglasrighint</object-name>
+</animation>
+
+
+
+<effect>
+  <inherits-from>Effects/glass</inherits-from>
+<object-name>vitresint</object-name>
+<object-name>frontdoorglasleftint</object-name>
+<object-name>frontdoorglasrighint</object-name>
+<object-name>sidedoorglasleftint</object-name>
+<object-name>sidedoorglasrightint</object-name>
+<object-name>slidedoorglasleftint</object-name>
+<object-name>slidedoorglasrighint</object-name>
+</effect>
+
+
+ <animation>
+        <type>select</type>
+      <object-name>vitresint</object-name>
+<object-name>frontdoorglasleftint</object-name>
+<object-name>frontdoorglasrighint</object-name>
+<object-name>sidedoorglasleftint</object-name>
+<object-name>sidedoorglasrightint</object-name>
+<object-name>slidedoorglasleftint</object-name>
+<object-name>slidedoorglasrighint</object-name>
+		<condition>
+            
+            <property>sim/current-view/internal</property>
+            
+        </condition>
+    </animation>
+
+<!-- gunsight
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/gunsight.xml</path>
+<offsets>
+<x-m> -6.975 </x-m>
+<y-m>  0.45 </y-m>
+<z-m> 0.03 </z-m>
+</offsets>
+</model> -->
+
+
+
+<!-- Planche de bord -->
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/panel.xml</path>
+<offsets>
+<x-m> -6.999 </x-m>
+<y-m>  0.000 </y-m>
+<z-m> -0.785 </z-m>
+</offsets>
+</model>
+
+<!--OVERHEADPANEL-->
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/ohp/overhead.xml</path>
+<offsets>
+<x-m> -4.95 </x-m>
+<y-m>  0.00 </y-m>
+<z-m>  -2.063 </z-m>
+<pitch-deg>-5</pitch-deg>
+</offsets>
+</model>
+
+
+ <model>
+    <path>Aircraft/Bell_412/Models/Interior/Panel/centre.xml</path>
+	<offsets>
+<x-m> -6.999 </x-m>
+<y-m>  0.000 </y-m>
+<z-m> -0.785 </z-m>
+</offsets>
+  </model>
+
+  <!-- Cyclic -->
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/sticks/cyclic.xml</path>
+<offsets>
+<x-m>-7.0 </x-m>
+<y-m>  0.5 </y-m>
+<z-m>  -1.3 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model>
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/sticks/cyclic.xml</path>
+<offsets>
+<x-m>-7.0</x-m>
+<y-m>  -0.5 </y-m>
+<z-m>  -1.3 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model>
+
+
+ <!-- collective -->
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/sticks/412collective.xml</path>
+<offsets>
+<x-m> -6.55 </x-m>
+<y-m>  0.25 </y-m>
+<z-m>  -1.2 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model>
+
+
+<model>
+<path>Aircraft/Bell_412/Models/Divers/sticks/412collective.xml</path>
+<offsets>
+<x-m> -6.55 </x-m>
+<y-m>  -0.8 </y-m>
+<z-m>  -1.2 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+</model>
+
+<!--PEDALS-->
+<model>
+<path>Aircraft/Bell_412/Models/Divers/pedals/controls.xml</path>
+<offsets>
+<x-m> -7.2 </x-m>
+<y-m>  0 </y-m>
+<z-m> -0.8 </z-m>
+<pitch-deg> -15 </pitch-deg>
+</offsets>
+</model>
+
+  
+</PropertyList>

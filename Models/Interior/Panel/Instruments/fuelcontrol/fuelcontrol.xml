@@ -1,0 +1,189 @@
+<?xml version="1.0" ?>
+
+<PropertyList>
+    <path>fuelcontrol.ac</path>
+
+    <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>10</max-m>
+    </animation>
+	
+	 <animation>
+    <type>material</type>
+    <object-name>face</object-name>
+   
+    <emission>
+			<red>0.08</red>
+			<green>0.10</green>
+			<blue>0.04</blue>
+<factor-prop>controls/lighting/ped-lights-norm</factor-prop>
+		</emission>
+  </animation>
+    
+	
+<!-- switches -->
+<!-- governer switches -->
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/Instruments/switches/gov-switch.xml</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>-0.06</y-m>
+<z-m>0.077 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.5</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+   </overlay>
+</model>	
+
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/Instruments/switches/gov-switch.xml</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>0.06</y-m>
+<z-m>0.077 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.5</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+   </overlay>
+</model>	
+
+
+
+<!-- fuel pumps -->
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/Instruments/switches/fuelpump.xml</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>-0.046</y-m>
+<z-m>0.005 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.5</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+   </overlay>
+</model>	
+
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/Instruments/switches/fuelpump1.xml</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>0.047</y-m>
+<z-m>0.005 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.5</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+   </overlay>
+</model>	
+
+<!-- crossfeed -->
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/Instruments/switches/crossfeed.xml</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>0</y-m>
+<z-m>-0.016 </z-m>
+<roll-deg>180</roll-deg>
+</offsets>
+<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.5</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+   </overlay>
+</model>	
+
+
+
+<!-- boost pumps -->
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/Instruments/switches/boostpump.xml</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>-0.046</y-m>
+<z-m>-0.052 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.5</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+   </overlay>
+</model>	
+
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/Instruments/switches/boostpump1.xml</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>0.047</y-m>
+<z-m>-0.052 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.5</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+   </overlay>
+</model>
+
+
+<!-- interconnect -->
+<model>
+<path>Aircraft/Bell_412/Models/Interior/Panel/Instruments/switches/interconnect.xml</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>0</y-m>
+<z-m>-0.094 </z-m>
+<pitch-deg>0</pitch-deg>
+</offsets>
+<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.5</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+   </overlay>
+</model>	
+
+
+</PropertyList>

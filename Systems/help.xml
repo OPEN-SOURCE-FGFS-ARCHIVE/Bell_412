@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <title>Bell 412 "Griffen"</title>
+ <key>
+				<name>{ }</name>
+				<desc>shutdown/start turbine</desc>
+			</key>
+
+			<key>
+				<name>i</name>
+				<desc>toggle ignition switch</desc>
+			</key>
+
+			<key>
+				<name>n/N</name>
+				<desc>engine power adjustment up/down</desc>
+			</key>
+			<key>
+				<name>r</name>
+				<desc>apply rotor brake</desc>
+			</key>
+			<key>
+				<name>R</name>
+				<desc>Activate winch man</desc>
+			</key>
+
+
+			<key>
+				<name>MMB</name>
+				<desc>adjust power lever (middle mouse button)</desc>
+			</key>
+
+			<key>
+				<name>M/m</name>
+				<desc>Raise or lower the winch</desc>
+			</key>
+
+			 <key>
+        <name>w</name>
+        <desc>Rotate Searchlight Up</desc>
+      </key>
+      <key>
+        <name>a</name>
+        <desc>Rotate Searchlight Left</desc>
+      </key>
+      <key>
+        <name>s</name>
+        <desc>Rotate Searchlight Down</desc>
+      </key>
+      <key>
+        <name>d</name>
+        <desc>Rotate Searchlight Right</desc>
+      </key>
+
+<line>Winch man is only available on configurations containing the side winch and when the sliding door is open </line>
+		<line> </line>
+		<line>Emergency Flotation system. </line>
+		<line>The Floatation system is only available on specific  mission configurations </line>
+		<line>Once equipped with the floatation system, the "Float Arm" button on the Collective will become available and active. Press this to ARM the system. </line>
+		<line>You should also see a red button  below the Arming switch, this is the Deploy button. Click that to deploy the floats ( yes you can float on water ) </line>
+		<line>The floats can be repacked and the system reset by clicking the deploy button again while on the ground. </line>
+		<line> </line>
+		<line> </line>
+<line>AUTOPILOT V3 </line>
+<line>The Autopilot is now able to control  speed, altitude and heading. Autopilot is only usable  between 30-140kts</line>
+<line>Heading modes can be used without any other Autopilot function being active.</line>
+<line>Speed modes can be used without any other Autopilot function being active.</line>
+<line>****  Altitude modes can only be used in conjunction with speed mode being being active. This includes the use of Vertical Speed mode.  ***</line>
+<line>AUTOPILOT ISSUES !!!!!</line>
+<line>When disengaging the AP entirely or from a singe mode, the  control inputs will snap to your actual cyclic/colective/pedal positions as soon as you  move any of them.</line>
+<line>This is unavoidable as  the sim can not physically move your cyclic/colective/pedal positions to match the Autopilots input.</line>
+<line>The best advice to minimise the sudden change of input would be for you to  have your cyclic/colective/pedal positions ready in approximatly correct positions  to minimise the "snap".</line>
+
+  
+</PropertyList>

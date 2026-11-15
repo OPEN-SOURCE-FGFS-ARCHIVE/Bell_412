@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>null.ac</path>
+	
+	<!-- Pilot stuff -->
+
+  
+ <!-- Interieur -->
+<model>
+
+<path>Aircraft/Bell_412/Models/Interior/interior-crew.xml</path>
+</model> 
+	
+	</PropertyList>
